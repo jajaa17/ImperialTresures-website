@@ -62,7 +62,7 @@
 }
 
 .journeyImg {
-    width: 460px;
+    width: 100%;
 }
 
 @media (min-width: 0px) and (max-width: 599px) {

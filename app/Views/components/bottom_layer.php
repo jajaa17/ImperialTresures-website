@@ -6,7 +6,7 @@
         <ul class="nav col-md-4 justify-content-end">
           <li class="nav-item"><a href="<?= base_url()?>" class="nav-link px-2 text-body-secondary">Home</a></li>
           <li class="nav-item"><a href="<?= base_url().'about'?>" class="nav-link px-2 text-body-secondary">About us</a></li>
-          <li class="nav-item"><a href="<?= base_url().'products'?>" class="nav-link px-2 text-body-secondary">Product & Services</a></li>
+          <li class="nav-item"><a href="<?= base_url().'products'?>" class="nav-link px-2 text-body-secondary">Collectibles</a></li>
         </ul>
       </footer>
     </div>
