@@ -15,16 +15,16 @@ use CodeIgniter\Database\BaseUtils;
     <div class="album py-5">
       <div class="container testimonial">
         <div class="text-box t1">
-          <img class="icon" src="radio-button.png" alt="">
-          <h5>Pins</h5>
+          <img class="icon" src="https://m.media-amazon.com/images/I/61h54+OMLuL._AC_UF1000,1000_QL80_.jpg" alt="">
+          <h5>Figurines</h5>
         </div>
         <div class="text-box t1">
-          <img class="icon" src="lanyard.png" alt="">
-          <h5>Lanyards</h5>
+          <img class="icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDHaBL2KkVNwYrABS4fjLnB7U4dEExdHC5NQ&s" alt="">
+          <h5>Books</h5>
         </div>
         <div class="text-box t1">
-          <img class="icon" src="keyboard-key-a.png" alt="">
-          <h5>Keycaps</h5>
+          <img class="icon" src="https://i.ebayimg.com/images/g/~hAAAOSweBdkH391/s-l1200.jpg" alt="">
+          <h5>Game Packs</h5>
         </div>
       </div>
     </div>
@@ -40,7 +40,7 @@ use CodeIgniter\Database\BaseUtils;
     <div class="boxes solo">
       <div class="container card-container">
         <div class="card">
-          <img class="" src="gising.png">
+          <img class="" src="<?= base_url('assets/images/ultramarine.jpg') ?>">
           <br>
 
           <div class="bottomPart border-top pt-2">
@@ -56,7 +56,7 @@ use CodeIgniter\Database\BaseUtils;
 
 
         <div class="card">
-          <img class="" src="love.png">
+          <img class="" src="<?= base_url('assets/images/prospero.jpg') ?>">
           <br>
           <div class="bottomPart border-top pt-2">
 
@@ -70,7 +70,7 @@ use CodeIgniter\Database\BaseUtils;
         </div>
 
         <div class="card">
-          <img class="" src="insomnia.png">
+          <img class="" src="<?= base_url('assets/images/fireandjade.jpg') ?>">
           <br>
           <div class="bottomPart border-top pt-2">
 
