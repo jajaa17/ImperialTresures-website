@@ -18,8 +18,9 @@
 
   .img-pin {
     background-color: #fff;
-    width: 680px;
+
   }
+
 
   .container-btn {
     margin-top: 20px;

@@ -25,7 +25,7 @@ use CodeIgniter\Database\BaseUtils;
           your dedication to the Warhammer universe and stand out among fellow enthusiasts</p>
       </div>
       <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden">
-        <img class="img-pin rounded-lg-1" src="<?= base_url('assets/images/pins.webp') ?>">
+        <img class="img-pin rounded-lg-1" src="<?= base_url('assets/images/heroimage.png') ?>">
       </div>
     </div>
 
