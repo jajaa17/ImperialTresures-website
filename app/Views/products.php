@@ -47,7 +47,7 @@ use CodeIgniter\Database\BaseUtils;
 
             <br>
             <div class="container-btn justify-content-center">
-              <a class="viewProducts" href="shop.html">
+              <a class="viewProducts" href="shop">
                 <button>BUY NOW</button>
               </a>
             </div>
@@ -62,7 +62,7 @@ use CodeIgniter\Database\BaseUtils;
 
             <br>
             <div class="container-btn justify-content-center">
-              <a class="viewProducts" href="shop.html">
+              <a class="viewProducts" href="shop">
                 <button>BUY NOW</button>
               </a>
             </div>
@@ -76,7 +76,7 @@ use CodeIgniter\Database\BaseUtils;
 
             <br>
             <div class="container-btn justify-content-center">
-              <a class="viewProducts" href="shop.html">
+              <a class="viewProducts" href="shop">
                 <button>BUY NOW</button>
               </a>
             </div>
@@ -84,7 +84,7 @@ use CodeIgniter\Database\BaseUtils;
 
         </div>
         <div class="container-btn justify-content-center">
-          <a class="viewProducts" href="shop.html">
+          <a class="viewProducts" href="shop">
             <button>VIEW ALL PRODUCTS</button>
           </a>
         </div>

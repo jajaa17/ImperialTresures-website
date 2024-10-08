@@ -1,5 +1,6 @@
 <style>
 
+
 .about-us {
     position: relative;
     background-image: url("<?= base_url('assets/images/wallpaper.jpg') ?>");
@@ -65,6 +66,13 @@
     width: 100%;
 }
 
+.album{
+    background-color: #8A8A8A;
+}
+
+.container my-5{
+    background-color: #8A8A8A;
+}
 @media (min-width: 0px) and (max-width: 599px) {
     .aboutUsSection {
         display: grid;
