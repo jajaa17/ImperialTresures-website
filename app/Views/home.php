@@ -13,17 +13,21 @@ use CodeIgniter\Database\BaseUtils;
 
 <?= $this->section('content') ?>
 <section>
-  <div class="container my-5">
-    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
-      <div class="header col-lg-9 p-3 p-lg-5 pt-lg-3">
-        <h1 class="headings display-4 fw-bold lh-1 text-body-emphasis">Stand with the Emperor and vanquish HERESY!</h1>
-        <p class="lead mt-4">Discover an extensive range of Warhammer 40K
+
+<div class="container my-5">
+      <div </div>class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+        <div class="header col-lg-7 p-3 p-lg-5 pt-lg-3">
+          <h1 class="headings display-4 fw-bold lh-1 text-body-emphasis">Stand with the emperor and vanquish HERESY!</h1>
+          <p class="lead mt-4"> Discover an extensive range of Warhammer 40K
           collectibles and exclusive, limited-edition items like novels and figurines, both in-game and physical.
           Whether you’re searching for the latest miniatures or rare, one-of-a-kind treasures,
           Imperial Treasures has everything you need to showcase
           your dedication to the Warhammer universe and stand out among fellow enthusiasts</p>
+        </div>
+        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden">
+          <img class="img-pin rounded-lg-1" src="bgPin.png">
+        </div>
       </div>
-    </div>
 
     <div class="container mt-5">
       <h2 class="pb-2 border-bottom">Newly Released Collectibles</h2>
