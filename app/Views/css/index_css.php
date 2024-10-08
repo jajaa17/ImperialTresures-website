@@ -1,7 +1,8 @@
 <style>
+  
 .img-pin.rounded-lg-1 {
   width: 100%;
-  max-width: 300px; /* Adjust the max-width as needed */
+  max-width: 600px; /* Adjust the max-width as needed */
   height: auto;
 }
   .icon-square {
