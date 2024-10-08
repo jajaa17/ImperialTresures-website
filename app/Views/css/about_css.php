@@ -1,5 +1,6 @@
 <style>
-    .about-us {
+
+.about-us {
     position: relative;
     background-image: url(talking.jpg);
     background-position: center;

@@ -14,20 +14,20 @@ use CodeIgniter\Database\BaseUtils;
 <?= $this->section('content') ?>
 <section>
 
-<div class="container my-5">
-      <div </div>class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
-        <div class="header col-lg-7 p-3 p-lg-5 pt-lg-3">
-          <h1 class="headings display-4 fw-bold lh-1 text-body-emphasis">Stand with the emperor and vanquish HERESY!</h1>
-          <p class="lead mt-4"> Discover an extensive range of Warhammer 40K
+  <div class="container my-5">
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+      <div class="header col-lg-7 p-3 p-lg-5 pt-lg-3">
+        <h1 class="headings display-4 fw-bold lh-1 text-body-emphasis">Stand with the emperor and vanquish HERESY!</h1>
+        <p class="lead mt-4"> Discover an extensive range of Warhammer 40K
           collectibles and exclusive, limited-edition items like novels and figurines, both in-game and physical.
           Whether you’re searching for the latest miniatures or rare, one-of-a-kind treasures,
           Imperial Treasures has everything you need to showcase
           your dedication to the Warhammer universe and stand out among fellow enthusiasts</p>
-        </div>
-        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden">
-          <img class="img-pin rounded-lg-1" src="bgPin.png">
-        </div>
       </div>
+      <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden">
+        <img class="img-pin rounded-lg-1" src="<?= base_url('assets/images/pins.webp') ?>">
+      </div>
+    </div>
 
     <div class="container mt-5">
       <h2 class="pb-2 border-bottom">Newly Released Collectibles</h2>
@@ -35,8 +35,7 @@ use CodeIgniter\Database\BaseUtils;
         <div class="col">
           <div class="card shadow-sm">
             <div class="card shadow">
-              <img
-                src="https://d28hgpri8am2if.cloudfront.net/tagged_assets/cvr9781849708302/9781849708302_hr.jpg"
+                <img src="<?= base_url('assets/images/vengeful_spirit.jpg') ?>"
                 alt="">
             </div>
           </div>
@@ -44,23 +43,23 @@ use CodeIgniter\Database\BaseUtils;
         <div class="col">
           <div class="card shadow-sm">
             <div class="card shadow">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQik3CBN10-DzAlWp3rh3y3RifMKvuOA1ifqw&s" alt="">
+                 <img src="<?= base_url('assets/images/horus_rising.jpg') ?>"
+                alt="">
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
             <div class="card shadow">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSogoPWbvDVsMpCRj6w9mgzMeLsL8knhR9u8g&s"
+              <img src="<?= base_url('assets/images/born_of_flame.jpg') ?>"
                 alt="">
             </div>
           </div>
         </div>
       </div>
       <div class="container-btn text-center mt-4">
-        <a class="viewProducts" href="product.html">
-          <button>Browse games</button>
+        <a class="viewProducts" href="<?= base_url() . 'products' ?>">
+          <button>Browse More Collectibles</button>
         </a>
       </div>
     </div>
@@ -107,7 +106,8 @@ use CodeIgniter\Database\BaseUtils;
         </div>
         <div>
           <h3 class="fs-2 text-body-emphasis">Curated Warhammer Collectibles</h3>
-          <p>Access a premium selection of the latest Warhammer 40K miniatures and collectibles, tailored to suit every fan’s taste.</p>
+          <p>Access a premium selection of the latest Warhammer 40K miniatures and collectibles, tailored to suit every
+            fan’s taste.</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
@@ -135,7 +135,8 @@ use CodeIgniter\Database\BaseUtils;
         </div>
         <div>
           <h3 class="fs-2 text-body-emphasis">Exceptional Support</h3>
-          <p>We are committed to providing top-notch service to ensure your Warhammer experience is always first-class.</p>
+          <p>We are committed to providing top-notch service to ensure your Warhammer experience is always first-class.
+          </p>
         </div>
       </div>
     </div>
@@ -147,15 +148,15 @@ use CodeIgniter\Database\BaseUtils;
   <div class="container col-xxl-8 px-4 py-5">
     <div class="row row1 flex-lg-row align-items-center g-5 py-5 ml-5">
       <div class="col-10 col-sm-8 col-lg-6">
-        <img
-          src="https://figurama-collectors.com/cdn/shop/products/03_76c2425f-2309-4248-998c-1264c4d37f13_5000x.png?v=1677490686"
-          class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        <img src="<?= base_url('assets/images/titus.webp') ?>" class="d-block mx-lg-auto img-fluid"
+          alt="Bootstrap Themes" width="700" height="500" loading="lazy">
       </div>
       <div class=" coming-soon col-lg-6">
-        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Unlock Exclusive Collectibles with GameWorld</h1>
-        <p class="lead">Something big is coming to GameWorld! Get ready for the release of new limited-edition
-          games and rare collectibles, both in-game and physical. Stay tuned for the launch, and be among the
-          first to get your hands on these one-of-a-kind items!</p>
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Unlock Exclusive Collectibles here in Imperial
+          Treasures!</h1>
+        <p class="lead">Get ready for the release of exclusive, limited-edition games and rare collectibles, both
+          in-game and physical, as we celebrate Warhammer 40K: Space Marine 2! Stay tuned for the launch and be among
+          the first to get your hands on these one-of-a-kind items!</p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
         </div>
       </div>
