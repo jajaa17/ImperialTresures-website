@@ -5,7 +5,7 @@ use CodeIgniter\Database\BaseUtils;
 <?= $this->extend('layout/main_layout') ?>
 
 <?= $this->section('title') ?>
-<title>GameWorld</title>
+<title>Imperial Treasures</title>
 <?= $this->endSection('title') ?>
 <?= $this->section('css') ?>
 <?= $this->include('css/index_css') ?>

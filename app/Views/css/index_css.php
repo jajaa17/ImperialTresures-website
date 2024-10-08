@@ -1,4 +1,15 @@
 <style>
+
+  .container my-5{
+    background: url('assets/images/heroimage.png') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
   .icon-square {
     width: 3rem;
     height: 3rem;

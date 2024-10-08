@@ -4,7 +4,7 @@ use CodeIgniter\Database\BaseUtils;
 ?>
 <?= $this->extend('layout/main_layout') ?>
 <?= $this->section('title') ?>
-<title>Products & Services</title>
+<title>Collectibles</title>
 <?= $this->endSection('title') ?>
 <?= $this->section('css') ?>
 <?= $this->include('css/products_css') ?>

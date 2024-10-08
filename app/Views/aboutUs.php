@@ -11,7 +11,7 @@
 <section>
   <div class="about-us">
     <div class="container">
-      <p>About Us</p>
+      <p>About Us </p>
     </div>
   </div>
 </section>

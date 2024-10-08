@@ -12,7 +12,7 @@
               <a class="nav-link" href="<?= base_url().'about'?>">About us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?= base_url().'products'?>">Products & Services</a>
+              <a class="nav-link" href="<?= base_url().'products'?>">Collectibles</a>
             </li>
           </ul>
         </div>
