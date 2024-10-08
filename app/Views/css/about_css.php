@@ -2,8 +2,8 @@
 
 .about-us {
     position: relative;
-    background-image: url(talking.jpg);
-    background-position: center;
+    background-image: url("<?= base_url('assets/images/wallpaper.jpg') ?>");
+    background-position: center ;
     width: 100%;
     height: 250px;
     display: flex;
@@ -14,7 +14,7 @@
 
 
 .about-us p {
-    color: aliceblue;
+    color: white;
     margin-bottom: -38px;
     font-size: 7rem;
 

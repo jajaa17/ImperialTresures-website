@@ -20,15 +20,17 @@
   <div class="container col-xxl-8 px-4 py-5">
     <div class="row row1 flex-lg-row align-items-center g-5 py-5 ml-5">
       <div class="col-10 col-sm-8 col-lg-6">
-        <img src="alagodsLogo.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
-          height="500" loading="lazy">
+        <img src="alagodsLogo.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500"
+          loading="lazy">
       </div>
       <div class=" coming-soon col-lg-6">
-        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Alagods Aesthetics</h1>
-        <p class="lead">At Alagods Aesthetics, we are passionate about crafting exceptional accessories that inspire
-          self-expression. With our captivating range of button pins, keycaps, and ID laces, we offer you the means to
-          showcase your unique personality and make a statement. We are committed to delivering quality, innovation,
-          and attention to detail, empowering you to embrace your individuality and celebrate your passions.</p>
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Imperial Treasures</h1>
+        <p class="lead">At Imperial Treasures, we are dedicated to bringing the immersive world of Warhammer 40K to life
+          through a carefully curated selection of books, novels, and unique collectibles. Whether you're a seasoned fan
+          or just discovering the vast Warhammer 40K universe, our range of products allows you to dive deeper into the
+          lore and enrich your collection. We take pride in offering high-quality items that reflect the epic stories
+          and intricate details of the Warhammer 40K realm. Embrace your passion, explore new stories, and build your
+          collection with us at Imperial Treasures.</p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
         </div>
       </div>
@@ -100,24 +102,5 @@
 </div>
 </section>
 
-<section>
-  <div class="container">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-      <p class="col-md-4 mb-0 text-body-secondary">© 2023 Company, Inc</p>
 
-      <a href="index.html"
-        class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-        <img src="blackLogo.png" alt="Alagods Logo" height="60px">
-      </a>
-
-      <ul class="nav col-md-4 justify-content-end">
-        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
-        <li class="nav-item"><a href="aboutUs.html" class="nav-link px-2 text-body-secondary">About us</a></li>
-        <li class="nav-item"><a href="product.html" class="nav-link px-2 text-body-secondary">Product & Services</a>
-        </li>
-        <li class="nav-item"><a href="meetTheTeam.html" class="nav-link px-2 text-body-secondary">Our Team</a></li>
-      </ul>
-    </footer>
-  </div>
-</section>
 <?= $this->endSection('content') ?>

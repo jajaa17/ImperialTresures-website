@@ -481,3 +481,20 @@ in APPPATH\Views\welcome_message.php on line 6.
  8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 13:14:04 --> Error: Undefined constant "assets"
+[Method: GET, Route: about]
+in APPPATH\Views\css\about_css.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('css/about_css', null, true)
+ 4 APPPATH\Views\aboutUs.php(7): CodeIgniter\View\View->include('css/about_css')
+ 5 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Activity_1\\app\\Views\\aboutUs.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('aboutUs', [], true)
+ 8 APPPATH\Controllers\Home.php(13): view('aboutUs')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->about()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
