@@ -16,35 +16,40 @@ use CodeIgniter\Database\BaseUtils;
   <div class="container my-5">
     <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
       <div class="header col-lg-9 p-3 p-lg-5 pt-lg-3">
-        <h1 class="headings display-4 fw-bold lh-1 text-body-emphasis">Elevate Your Gaming Journey with GameWorld’s Exclusive Collection</h1>
-        <p class="lead mt-4">Explore a vast selection of games and limited-edition collectibles, both in-game
-          and physical. Whether you're looking for the latest titles or rare, one-of-a-kind
-          items, GameWorld has everything you need to showcase your passion for gaming and
-          stand out in the community.</p>
+        <h1 class="headings display-4 fw-bold lh-1 text-body-emphasis">Stand with the Emperor and vanquish HERESY!</h1>
+        <p class="lead mt-4">Discover an extensive range of Warhammer 40K
+          collectibles and exclusive, limited-edition items like novels and figurines, both in-game and physical.
+          Whether you’re searching for the latest miniatures or rare, one-of-a-kind treasures,
+          Imperial Treasures has everything you need to showcase
+          your dedication to the Warhammer universe and stand out among fellow enthusiasts</p>
       </div>
     </div>
 
     <div class="container mt-5">
-      <h2 class="pb-2 border-bottom">Newly released games</h2>
+      <h2 class="pb-2 border-bottom">Newly Released Collectibles</h2>
       <div class="row designs row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mt-3">
         <div class="col">
           <div class="card shadow-sm">
             <div class="card shadow">
-              <img src="https://image.api.playstation.com/vulcan/ap/rnd/202405/2306/e940c07107a4cefbbedbbd53451e26f0dbf292dcfab6c307.png" alt="">
+              <img
+                src="https://d28hgpri8am2if.cloudfront.net/tagged_assets/cvr9781849708302/9781849708302_hr.jpg"
+                alt="">
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
             <div class="card shadow">
-              <img src="https://i.ebayimg.com/images/g/kLYAAOSwuwJkNaXz/s-l1200.jpg" alt="">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQik3CBN10-DzAlWp3rh3y3RifMKvuOA1ifqw&s" alt="">
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
             <div class="card shadow">
-              <img src="https://preview.redd.it/metaphor-refantazio-high-quality-poster-v0-tx2vj1xvl8wc1.jpeg?auto=webp&s=5d6dd13ff191638e666fdefaf0ec361cc73d70bd" alt="">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSogoPWbvDVsMpCRj6w9mgzMeLsL8knhR9u8g&s"
+                alt="">
             </div>
           </div>
         </div>
@@ -60,33 +65,32 @@ use CodeIgniter\Database\BaseUtils;
 
 <section>
   <div class="album py-5 bg-body-tertiary">
-    <h2 class="t-title">WHAT GAMERS ARE SAYING ABOUT US</h2>
+    <h2 class="t-title">WHAT COLLECTORS ARE SAYING ABOUT US</h2>
     <div class="container testimonial">
-      <div class="text-box t1">"GameWorld is a treasure trove
-        for gaming enthusiasts! I found the perfect game and
-        some exclusive in-game collectibles that I couldn’t
-        get anywhere else. The experience was seamless, and
-        the selection is incredible. GameWorld is my go-to
-        for rare gaming finds!" <span><br><br>- Mark, Completionist gamer</span></div>
-      <div class="text-box t1">"I’m amazed at the limited-edition
-        items available on GameWorld. From exclusive in-game
-        skins to real-life collectibles, they have everything
-        a gamer could dream of. Every purchase adds something
-        special to my collection, whether I’m in-game or
-        displaying it at home!" <span><br><br>- Sarah, Happy Customer</span></div>
-      <div class="text-box t1">"As a collector of gaming
-        memorabilia, GameWorld’s limited-edition releases
-        have been a game-changer. I’ve added exclusive in-game
-        items and physical collectibles to my collection that
-        I couldn’t find anywhere else. GameWorld has truly
-        leveled up my collection!" <span><br><br>- Emily, Gaming Collector</span></div>
+      <div class="text-box t1">"Imperial Treasures is a true paradise for collectors!
+        I discovered the perfect miniatures and exclusive collectibles that are
+        impossible to find elsewhere. The shopping experience was seamless,
+        and the variety is simply unmatched.
+        Imperial Treasures has become
+        my ultimate destination for rare finds!" <span><br><br>- Mark, Completionist gamer</span></div>
+      <div class="text-box t1">
+
+        "I’m absolutely blown away by the limited-edition items at Imperial Treasures. From unique in-game models to
+        stunning physical collectibles, they have everything a true enthusiast could wish for.
+        Every purchase adds a special piece to my collection, whether it’s for gaming or display!"<span><br><br>- Sarah,
+          Happy Customer</span>
+      </div>
+      <div class="text-box t1">"As a devoted collector of gaming memorabilia, Imperial Treasures’ limited-edition
+        releases have transformed my collection. I’ve added exclusive in-game items and physical collectibles that I
+        couldn’t find anywhere else. Imperial Treasures has truly leveled up my hobby!" <span><br><br>- Emily, Gaming
+          Collector</span></div>
     </div>
   </div>
 </section>
 
 <section>
   <div class="container px-4 py-5" id="hanging-icons">
-    <h2 class="pb-2 border-bottom">Why GameWorld?</h2>
+    <h2 class="pb-2 border-bottom">Why Choose Imperial Treasures?</h2>
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
       <div class="col d-flex align-items-start">
         <div
@@ -98,8 +102,8 @@ use CodeIgniter\Database\BaseUtils;
           </svg>
         </div>
         <div>
-          <h3 class="fs-2 text-body-emphasis">Curated Games</h3>
-          <p>Access a premium selection of the latest and greatest games, tailored to suit every gamer’s taste.</p>
+          <h3 class="fs-2 text-body-emphasis">Curated Warhammer Collectibles</h3>
+          <p>Access a premium selection of the latest Warhammer 40K miniatures and collectibles, tailored to suit every fan’s taste.</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
@@ -112,8 +116,8 @@ use CodeIgniter\Database\BaseUtils;
           </svg>
         </div>
         <div>
-          <h3 class="fs-2 text-body-emphasis">Exclusive Collectibles</h3>
-          <p>Get your hands on limited-edition in-game items and physical collectibles, only available at GameWorld.</p>
+          <h3 class="fs-2 text-body-emphasis">Exclusive Warhammer Items</h3>
+          <p>Get your hands on limited-edition miniatures and collectibles, available only at Imperial Treasures.</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
@@ -127,19 +131,21 @@ use CodeIgniter\Database\BaseUtils;
         </div>
         <div>
           <h3 class="fs-2 text-body-emphasis">Exceptional Support</h3>
-          <p>We are committed to providing top-notch service to ensure your gaming experience is always first-class.</p>
+          <p>We are committed to providing top-notch service to ensure your Warhammer experience is always first-class.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
+
 <section>
   <div class="container col-xxl-8 px-4 py-5">
     <div class="row row1 flex-lg-row align-items-center g-5 py-5 ml-5">
       <div class="col-10 col-sm-8 col-lg-6">
-        <img src="https://figurama-collectors.com/cdn/shop/products/03_76c2425f-2309-4248-998c-1264c4d37f13_5000x.png?v=1677490686" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
-          height="500" loading="lazy">
+        <img
+          src="https://figurama-collectors.com/cdn/shop/products/03_76c2425f-2309-4248-998c-1264c4d37f13_5000x.png?v=1677490686"
+          class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
       </div>
       <div class=" coming-soon col-lg-6">
         <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Unlock Exclusive Collectibles with GameWorld</h1>
