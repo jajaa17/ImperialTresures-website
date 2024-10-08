@@ -3,11 +3,6 @@
 use CodeIgniter\Database\BaseUtils;
 ?>
 <?= $this->extend('layout/main_layout') ?>
-
-<?= $this->section('title') ?>
-<title>products</title>
-<?= $this->endSection('title') ?>
-
 <?= $this->section('title') ?>
 <title>Products & Services</title>
 <?= $this->endSection('title') ?>
