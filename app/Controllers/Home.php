@@ -10,7 +10,7 @@ class Home extends BaseController
     }
     public function about(): string
     {
-        return view('aboutUs');
+        return view('aboupage');
     }
     public function products(): string
     {
