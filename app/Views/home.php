@@ -20,7 +20,7 @@ use CodeIgniter\Database\BaseUtils;
           your dedication to the Warhammer universe and stand out among fellow enthusiasts</p>
       </div>
       <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden">
-        <img class="img-pin rounded-lg-1" src="<?= base_url('assets/images/heroimage.png') ?>">
+        <img class="img-pin rounded-lg-1" src="<?php echo IMG . 'heroimage.png'; ?>">
       </div>
     </div>
 
@@ -30,27 +30,27 @@ use CodeIgniter\Database\BaseUtils;
         <div class="col">
           <div class="card shadow-sm">
             <div class="card shadow">
-              <img src="<?= base_url('assets/images/vengeful_spirit.jpg') ?>" alt="">
+              <img src="<?php echo IMG . 'vengeful_spirit.jpg'; ?>" alt="">
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
             <div class="card shadow">
-              <img src="<?= base_url('assets/images/horus_rising.jpg') ?>" alt="">
+              <img src="<?php echo IMG . 'horus_rising.jpg'; ?>" alt="">
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
             <div class="card shadow">
-              <img src="<?= base_url('assets/images/born_of_flame.jpg') ?>" alt="">
+              <img src="<?php echo IMG . 'born_of_flame.jpg'; ?>" alt="">
             </div>
           </div>
         </div>
       </div>
       <div class="container-btn text-center mt-4">
-        <a class="viewProducts" href="<?= base_url() . 'products' ?>">
+        <a class="viewProducts" href="<?= BASEURL. 'products' ?>">
           <button>Browse More Collectibles</button>
         </a>
       </div>
@@ -139,7 +139,7 @@ use CodeIgniter\Database\BaseUtils;
   <div class="container col-xxl-8 px-4 py-5">
     <div class="row row1 flex-lg-row align-items-center g-5 py-5 ml-5">
       <div class="col-10 col-sm-8 col-lg-6">
-        <img src="<?= base_url('assets/images/titus.webp') ?>" class="d-block mx-lg-auto img-fluid"
+        <img src="<?=  IMG.'titus.webp' ?>" class="d-block mx-lg-auto img-fluid"
           alt="Bootstrap Themes" width="700" height="500" loading="lazy">
       </div>
       <div class=" coming-soon col-lg-6">
