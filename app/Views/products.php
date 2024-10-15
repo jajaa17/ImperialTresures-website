@@ -9,7 +9,7 @@ use CodeIgniter\Database\BaseUtils;
 <?= $this->endSection('title') ?>
 
 <?= $this->section('title') ?>
-<title>Collectibles</title>
+<title>Products & Services</title>
 <?= $this->endSection('title') ?>
 <?= $this->section('css') ?>
 <?= $this->include('css/products_css') ?>
@@ -20,16 +20,16 @@ use CodeIgniter\Database\BaseUtils;
     <div class="album py-5">
       <div class="container testimonial">
         <div class="text-box t1">
-          <img class="icon" src="https://m.media-amazon.com/images/I/61h54+OMLuL._AC_UF1000,1000_QL80_.jpg" alt="">
-          <h5>Figurines</h5>
+          <img class="icon" src="radio-button.png" alt="">
+          <h5>Pins</h5>
         </div>
         <div class="text-box t1">
-          <img class="icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDHaBL2KkVNwYrABS4fjLnB7U4dEExdHC5NQ&s" alt="">
-          <h5>Books</h5>
+          <img class="icon" src="lanyard.png" alt="">
+          <h5>Lanyards</h5>
         </div>
         <div class="text-box t1">
-          <img class="icon" src="https://i.ebayimg.com/images/g/~hAAAOSweBdkH391/s-l1200.jpg" alt="">
-          <h5>Game Packs</h5>
+          <img class="icon" src="keyboard-key-a.png" alt="">
+          <h5>Keycaps</h5>
         </div>
       </div>
     </div>
@@ -45,14 +45,14 @@ use CodeIgniter\Database\BaseUtils;
     <div class="boxes solo">
       <div class="container card-container">
         <div class="card">
-          <img class="" src="<?= base_url('assets/images/ultramarine.jpg') ?>">
+          <img class="" src="gising.png">
           <br>
 
           <div class="bottomPart border-top pt-2">
 
             <br>
             <div class="container-btn justify-content-center">
-              <a class="viewProducts" href="shop">
+              <a class="viewProducts" href="shop.html">
                 <button>BUY NOW</button>
               </a>
             </div>
@@ -61,13 +61,13 @@ use CodeIgniter\Database\BaseUtils;
 
 
         <div class="card">
-          <img class="" src="<?= base_url('assets/images/prospero.jpg') ?>">
+          <img class="" src="love.png">
           <br>
           <div class="bottomPart border-top pt-2">
 
             <br>
             <div class="container-btn justify-content-center">
-              <a class="viewProducts" href="shop">
+              <a class="viewProducts" href="shop.html">
                 <button>BUY NOW</button>
               </a>
             </div>
@@ -75,13 +75,13 @@ use CodeIgniter\Database\BaseUtils;
         </div>
 
         <div class="card">
-          <img class="" src="<?= base_url('assets/images/fireandjade.jpg') ?>">
+          <img class="" src="insomnia.png">
           <br>
           <div class="bottomPart border-top pt-2">
 
             <br>
             <div class="container-btn justify-content-center">
-              <a class="viewProducts" href="shop">
+              <a class="viewProducts" href="shop.html">
                 <button>BUY NOW</button>
               </a>
             </div>
@@ -89,7 +89,7 @@ use CodeIgniter\Database\BaseUtils;
 
         </div>
         <div class="container-btn justify-content-center">
-          <a class="viewProducts" href="shop">
+          <a class="viewProducts" href="shop.html">
             <button>VIEW ALL PRODUCTS</button>
           </a>
         </div>

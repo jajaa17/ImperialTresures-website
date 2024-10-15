@@ -1,10 +1,4 @@
 <style>
-  
-.img-pin.rounded-lg-1 {
-  width: 100%;
-  max-width: 600px; /* Adjust the max-width as needed */
-  height: auto;
-}
   .icon-square {
     width: 3rem;
     height: 3rem;
@@ -19,9 +13,8 @@
 
   .img-pin {
     background-color: #fff;
-
+    width: 680px;
   }
-
 
   .container-btn {
     margin-top: 20px;
@@ -64,7 +57,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100%;
+      height: 300px;
       padding: 10px;
       overflow: hidden;
       padding: 0;

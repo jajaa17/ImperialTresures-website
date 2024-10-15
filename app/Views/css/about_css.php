@@ -1,10 +1,8 @@
 <style>
-
-
-.about-us {
+    .about-us {
     position: relative;
-    background-image: url("<?= base_url('assets/images/wallpaper.jpg') ?>");
-    background-position: center ;
+    background-image: url(talking.jpg);
+    background-position: center;
     width: 100%;
     height: 250px;
     display: flex;
@@ -15,7 +13,7 @@
 
 
 .about-us p {
-    color: white;
+    color: aliceblue;
     margin-bottom: -38px;
     font-size: 7rem;
 
@@ -63,16 +61,9 @@
 }
 
 .journeyImg {
-    width: 100%;
+    width: 460px;
 }
 
-.album{
-    background-color: #8A8A8A;
-}
-
-.container my-5{
-    background-color: #8A8A8A;
-}
 @media (min-width: 0px) and (max-width: 599px) {
     .aboutUsSection {
         display: grid;
