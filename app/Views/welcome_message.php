@@ -50,7 +50,7 @@ use CodeIgniter\Database\BaseUtils;
         </div>
       </div>
       <div class="container-btn text-center mt-4">
-        <a class="viewProducts" href="product.html">
+        <a class="viewProducts" href="<?= base_url().'products'?>">
           <button>Browse games</button>
         </a>
       </div>
