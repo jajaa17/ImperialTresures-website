@@ -12,7 +12,7 @@ use CodeIgniter\Database\BaseUtils;
 <title>Products & Services</title>
 <?= $this->endSection('title') ?>
 <?= $this->section('css') ?>
-<?= $this->include('css/products_css') ?>
+<link rel="stylesheet" href="app\Views\css\products_css.css">
 <?= $this->endSection('css') ?>
 
 <?= $this->section('content') ?>

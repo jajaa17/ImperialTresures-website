@@ -8,7 +8,7 @@ use CodeIgniter\Database\BaseUtils;
 <title>GameWorld</title>
 <?= $this->endSection('title') ?>
 <?= $this->section('css') ?>
-<?= $this->include('css/index_css') ?>
+<link rel="stylesheet" type="text/css" href="app\Views\css\index_css.css">
 <?= $this->endSection('css') ?>
 
 <?= $this->section('content') ?>

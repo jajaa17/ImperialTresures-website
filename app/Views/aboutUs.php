@@ -4,7 +4,7 @@
 <title>About Us</title>
 <?= $this->endSection('title') ?>
 <?= $this->section('css') ?>
-<?= $this->include('css/about_css') ?>
+<link rel="stylesheet" href="app\Views\css\about_css.css">
 <?= $this->endSection('css') ?>
 
 <?= $this->section('content') ?>
