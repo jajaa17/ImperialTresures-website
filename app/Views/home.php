@@ -7,9 +7,7 @@ use CodeIgniter\Database\BaseUtils;
 <?= $this->section('title') ?>
 <title>Imperial Treasures</title>
 <?= $this->endSection('title') ?>
-<?= $this->section('css') ?>
-<?= $this->include('css/index_css') ?>
-<?= $this->endSection('css') ?>
+
 
 <?= $this->section('content') ?>
 <section>
