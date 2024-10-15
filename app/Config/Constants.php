@@ -80,6 +80,7 @@ defined('EXIT__AUTO_MAX')      || define('EXIT__AUTO_MAX', 125);    // highest a
 
 defined('BASEURL') || define('BASEURL', 'http://localhost/ImperialTresures-website/');
 defined('CSS')     || define('CSS', BASEURL.'public/css/');
+defined('IMG')     || define('IMG', BASEURL.'public/images/');
 /**
  * @deprecated Use \CodeIgniter\Events\Events::PRIORITY_LOW instead.
  */
